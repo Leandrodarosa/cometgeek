@@ -1,0 +1,30 @@
+body{
+    background-color: #858585;
+}
+*{margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    background-color: #2C2C2C;
+    position: relative;
+}
+.cor{
+    position: absolute;
+    left: 40%;
+    font-size: 40px;
+    font-family: Arial, 
+        Helvetica, sans-serif;
+    background: linear-gradient(
+        to right, #ff9101, #fd0000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+.card{
+    background-color: #D9D9D9;
+}
+.dropdown-toggle{
+    background:transparent; border:none; outline:none; display:block; height:50; width:50; cursor:pointer;
+}
